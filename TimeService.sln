@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeService", "TimeService\TimeService.csproj", "{87B87B14-B6A9-4032-AEA4-A3BEB43FE688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeService.Common", "TimeService.Common\TimeService.Common.csproj", "{91B12A1F-6717-4CB0-89CA-2BCA35CB97E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B87B14-B6A9-4032-AEA4-A3BEB43FE688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B87B14-B6A9-4032-AEA4-A3BEB43FE688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B87B14-B6A9-4032-AEA4-A3BEB43FE688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B87B14-B6A9-4032-AEA4-A3BEB43FE688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B12A1F-6717-4CB0-89CA-2BCA35CB97E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B12A1F-6717-4CB0-89CA-2BCA35CB97E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B12A1F-6717-4CB0-89CA-2BCA35CB97E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B12A1F-6717-4CB0-89CA-2BCA35CB97E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
