@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 
 public class TimeOnlyModelBinderProvider : IModelBinderProvider
 {
-    public IModelBinder GetBinder(ModelBinderProviderContext context)
+    public IModelBinder? GetBinder(ModelBinderProviderContext context)
     {
         if (context.Metadata.ModelType == typeof(TimeOnlyRequest))
         {

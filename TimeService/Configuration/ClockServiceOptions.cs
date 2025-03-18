@@ -1,6 +1,8 @@
-namespace TimeService.Common.Configuration;
+using TimeService.Common.Configuration;
 
-public class ServiceOptions
+namespace TimeService.Configuration;
+
+public class ClockServiceOptions
 {
     public const string DisplayValues = nameof(DisplayValues);
     

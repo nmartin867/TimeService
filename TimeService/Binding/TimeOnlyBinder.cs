@@ -32,7 +32,6 @@ public class TimeOnlyModelBinder : IModelBinder
         }
         
         return Task.CompletedTask;
-
-        return Task.CompletedTask;
+        
     }
 }

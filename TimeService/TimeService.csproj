@@ -9,10 +9,12 @@
 
     <ItemGroup>
         <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+        <PackageReference Include="Microsoft.OpenApi" Version="1.6.23" />
         <PackageReference Include="NodaTime" Version="3.2.1" />
         <PackageReference Include="NodaTime.Serialization.SystemTextJson" Version="1.3.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="7.3.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.3.2" />
         <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.3.1" />
     </ItemGroup>
 
@@ -25,5 +27,14 @@
     <ItemGroup>
       <ProjectReference Include="..\TimeService.Common\TimeService.Common.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\DTO\" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+    </PropertyGroup>
 
 </Project>

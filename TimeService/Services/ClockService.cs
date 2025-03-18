@@ -1,15 +1,19 @@
 using Microsoft.Extensions.Options;
 using TimeService.Common.Configuration;
+using TimeService.Configuration;
 
 namespace TimeService.Services;
 
-public sealed class ClockService
+public interface IClockService
 {
-    private readonly ServiceOptions _displayValues;
+    
+}
+public sealed class ClockService : IClockService
+{
+    private readonly ClockServiceOptions _displayValues;
 
-    public ClockService(IOptionsSnapshot<ServiceOptions> namedOptionsAccessor)
+    public ClockService(IOptionsSnapshot<ClockServiceOptions> namedOptionsAccessor)
     {
-        _displayValues = namedOptionsAccessor.Get(ServiceOptions.DisplayValues);
+        _displayValues = namedOptionsAccessor.Get(ClockServiceOptions.DisplayValues);
     }
-
 }
