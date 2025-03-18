@@ -1,4 +1,3 @@
-using System.Globalization;
 using NodaTime.Text;
 
 namespace TimeService.Common.Extensions;
